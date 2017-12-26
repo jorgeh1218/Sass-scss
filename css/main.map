@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"$primary-color: green;\n\nh1\n{\n\tcolor: $primary-color;\n}\np\n{\n\tcolor: $primary-color;\n}"
+	],
+	"mappings": ";AAEA,AAAA,EAAE,CACF;EACC,KAAK,EAJU,KAAK;CAKpB;;;AACD,AAAA,CAAC,CACD;EACC,KAAK,EARU,KAAK;CASpB",
+	"names": []
+}

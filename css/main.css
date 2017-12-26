@@ -1,0 +1,38 @@
+section p, .mini-section p {
+  background: #efefef;
+  color: black;
+}
+
+.mini-section {
+  font-size: 12px;
+}
+
+h1 {
+  color: #16a195;
+}
+
+p {
+  color: #16a195;
+}
+
+nav ul {
+  background: #2c3e50;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #16a085;
+}

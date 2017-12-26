@@ -1,0 +1,13 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    	"test": "npm run scss-compile",
+  	"scss-compile": "node-sass -rw ./scss/main.scss -o ./css/main.css",
+ 	 "watch": "npm run scss-compile"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+$section-bg-color: #efefef;
+$section-text-color: black;
+section
+{
+	p
+	{
+		background: $section-bg-color;
+		color: $section-text-color;
+	}
+}
+.mini-section
+{
+	@extend section;
+	font-size: 12px;
+}
