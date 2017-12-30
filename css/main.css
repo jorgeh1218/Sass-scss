@@ -7,6 +7,12 @@ section p, .mini-section p {
   font-size: 12px;
 }
 
+.starred {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #16a195;
+}
+
 h1 {
   color: #16a195;
 }
@@ -33,6 +39,25 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
+nav a.pages:hover {
   background: #16a085;
+}
+
+nav .facebook {
+  background: url("../imgs/facebook.png") no-repeat;
+  background-size: 20px 20px;
+}
+
+nav .twitter {
+  background: url("../imgs/twitter.png") no-repeat;
+  background-size: 20px 20px;
+}
+
+nav .youtube {
+  background: url("../imgs/youtube.png") no-repeat;
+  background-size: 20px 20px;
+}
+
+nav .facebook {
+  float: right;
 }

@@ -1,8 +1,18 @@
 @import "section";
+
 $primary-color: #16a195;
 $bg-color: #2c3e50;
 $hover-color: #16a085;
 $text-color: #ffffff;
+
+
+%starred
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: $primary-color;
+}
+
 
 h1
 {
@@ -31,9 +41,21 @@ nav
 		display:inline-block;
 		padding: 10px 16px;
 		text-decoration: none;
+		&.pages:hover{
+			background:$hover-color;
+		}
 	}
 
-	a:hover{
-		background:$hover-color;
+	$social: (facebook,twitter,youtube);
+	@each $item in $social{
+		.#{$item} {
+			background: url('../imgs/#{$item}.png') no-repeat;
+			 background-size: 20px 20px;
+		}
 	}
+	.#{nth($social,1)}{ float:right }
+}
+.starred 
+{
+	@extend %starred;
 }
